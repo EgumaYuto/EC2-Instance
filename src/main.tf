@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "cabos-tfstate"
     region = "ap-northeast-1"
-    key = "todo-change-first/terraform.tfstate" ## TODO change first
+    key = "ec2-instance/terraform.tfstate"
     encrypt = true
   }
 }
